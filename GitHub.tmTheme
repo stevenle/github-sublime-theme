@@ -12,9 +12,9 @@
               <key>background</key>
               <string>#FFFFFF</string>
               <key>caret</key>
-              <string>#000000</string>
+              <string>#333333</string>
               <key>foreground</key>
-              <string>#000000</string>
+              <string>#333333</string>
               <key>invisibles</key>
               <string>#E0E0E0</string>
               <key>lineHighlight</key>
@@ -28,7 +28,7 @@
               <key>findHighlight</key>
               <string>#FFE792</string>
               <key>findHighlightForeground</key>
-              <string>#000000</string>
+              <string>#333333</string>
           </dict>
       </dict>
       <dict>
@@ -46,15 +46,24 @@
       </dict>
       <dict>
           <key>name</key>
-          <string>Operators</string>
+          <string>Constants</string>
           <key>scope</key>
-          <string>keyword.operator, constant.language, support.constant</string>
+          <string>constant.language, support.constant</string>
           <key>settings</key>
           <dict>
-              <key>fontStyle</key>
-              <string>bold</string>
               <key>foreground</key>
-              <string>#000000</string>
+              <string>#0086B3</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Operators</string>
+          <key>scope</key>
+          <string>keyword.operator</string>
+          <key>settings</key>
+          <dict>
+              <key>foreground</key>
+              <string>#333333</string>
           </dict>
       </dict>
       <dict>
@@ -87,7 +96,7 @@
           <key>settings</key>
           <dict>
               <key>foreground</key>
-              <string>#008080</string>
+              <string>#999</string>
           </dict>
       </dict>
       <dict>
@@ -96,7 +105,7 @@
           <key>settings</key>
           <dict>
               <key>foreground</key>
-              <string>#0086B3</string>
+              <string>#999</string>
           </dict>
       </dict>
       <dict>
@@ -118,7 +127,7 @@
               <key>fontStyle</key>
               <string>bold</string>
               <key>foreground</key>
-              <string>#990000</string>
+              <string>#945277</string>
           </dict>
       </dict>
       <dict>
@@ -155,7 +164,7 @@
           <key>settings</key>
           <dict>
               <key>foreground</key>
-              <string>#F93232</string>
+              <string>#990000</string>
           </dict>
       </dict>
       <dict>
@@ -173,13 +182,13 @@
           <key>name</key>
           <string>Numbers</string>
           <key>scope</key>
-          <string>constant.numeric, constant</string>
+          <string>constant.numeric</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#009999</string>
+              <string>#945277</string>
           </dict>
       </dict>
       <dict>
@@ -192,7 +201,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#d14</string>
+              <string>#df5000</string>
           </dict>
       </dict>
       <dict>
@@ -282,7 +291,7 @@
               <key>fontStyle</key>
               <string></string>
               <key>foreground</key>
-              <string>#000000</string>
+              <string>#333333</string>
           </dict>
       </dict>
       <dict>
@@ -418,7 +427,7 @@
         <key>foreground</key>
         <string>#770000</string>
         <key>background</key>
-        <string>#FFDDDD</string>        
+        <string>#FFDDDD</string>
       </dict>
     </dict>
     <dict>
