@@ -121,13 +121,24 @@
           <key>name</key>
           <string>Functions</string>
           <key>scope</key>
-          <string>entity.name.function, support.function, entity</string>
+          <string>entity.name.function</string>
           <key>settings</key>
           <dict>
               <key>fontStyle</key>
               <string>bold</string>
               <key>foreground</key>
               <string>#945277</string>
+          </dict>
+      </dict>
+      <dict>
+          <key>name</key>
+          <string>Function calls</string>
+          <key>scope</key>
+          <string>support.function, entity</string>
+          <key>settings</key>
+          <dict>
+              <key>foreground</key>
+              <string>#333</string>
           </dict>
       </dict>
       <dict>
